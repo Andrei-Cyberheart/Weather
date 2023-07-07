@@ -14,7 +14,7 @@ enum TimeOfDay {
     case night
 }
 
-struct Background: View {
+struct BackgroundView: View {
     @State private var timeOfDay: TimeOfDay = .morning
     var body: some View {
         // Определение фона в зависимости от времени суток
@@ -68,8 +68,8 @@ struct Background: View {
     }
 }
 
-struct WeatherBackground_Previews: PreviewProvider {
+struct BackgroundView_Previews: PreviewProvider {
     static var previews: some View {
-        Background()
+        BackgroundView()
     }
 }
