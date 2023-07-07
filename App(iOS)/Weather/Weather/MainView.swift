@@ -24,9 +24,9 @@ struct MainView: View {
                         HStack {
                             ForEach(1..<40) {_ in
                                 NavigationLink {
-                                    AdvanceDetailView()
+                                    AdvancedDetailView()
                                 } label: {
-                                    WeatherAdvencedCard().padding(.horizontal)
+                                    AdvencedCard().padding(.horizontal)
                                 }
                             }
                         }
