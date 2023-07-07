@@ -14,6 +14,7 @@
 		F03B4C5E2A5859DD002D73CF /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03B4C5D2A5859DD002D73CF /* View+Extensions.swift */; };
 		F03B4C602A585A96002D73CF /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03B4C5F2A585A96002D73CF /* Background.swift */; };
 		F03B4C622A585B0D002D73CF /* MainCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03B4C612A585B0D002D73CF /* MainCard.swift */; };
+		F03B4C642A585BBF002D73CF /* SearchCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03B4C632A585BBF002D73CF /* SearchCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		F03B4C5D2A5859DD002D73CF /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		F03B4C5F2A585A96002D73CF /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		F03B4C612A585B0D002D73CF /* MainCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCard.swift; sourceTree = "<group>"; };
+		F03B4C632A585BBF002D73CF /* SearchCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				F03B4C5D2A5859DD002D73CF /* View+Extensions.swift */,
 				F03B4C5F2A585A96002D73CF /* Background.swift */,
 				F03B4C612A585B0D002D73CF /* MainCard.swift */,
+				F03B4C632A585BBF002D73CF /* SearchCardView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			files = (
 				F03B4C512A585911002D73CF /* MainView.swift in Sources */,
 				F03B4C5E2A5859DD002D73CF /* View+Extensions.swift in Sources */,
+				F03B4C642A585BBF002D73CF /* SearchCardView.swift in Sources */,
 				F03B4C4F2A585911002D73CF /* WeatherApp.swift in Sources */,
 				F03B4C602A585A96002D73CF /* Background.swift in Sources */,
 				F03B4C622A585B0D002D73CF /* MainCard.swift in Sources */,
