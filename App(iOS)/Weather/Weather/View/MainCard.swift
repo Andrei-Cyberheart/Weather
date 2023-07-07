@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct WeatherMainCard: View {
+struct MainCard: View {
     @Environment(\.colorScheme) var colorScheme
     var body: some View {
         ZStack {
@@ -60,11 +60,11 @@ struct WeatherMainCard: View {
     }
 }
 
-struct WeatherMainCard_Previews: PreviewProvider {
+struct MainCard_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
             Color.purple.ignoresSafeArea()
-            WeatherMainCard()
+            MainCard()
         }
     }
 }

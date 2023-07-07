@@ -59,6 +59,7 @@
 		F03B4C4D2A585911002D73CF /* Weather */ = {
 			isa = PBXGroup;
 			children = (
+				F03B4C652A585CC6002D73CF /* View */,
 				F03B4C5C2A5859C8002D73CF /* Extensions */,
 				F03B4C4E2A585911002D73CF /* WeatherApp.swift */,
 				F03B4C502A585911002D73CF /* MainView.swift */,
@@ -80,11 +81,18 @@
 			isa = PBXGroup;
 			children = (
 				F03B4C5D2A5859DD002D73CF /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F03B4C652A585CC6002D73CF /* View */ = {
+			isa = PBXGroup;
+			children = (
 				F03B4C5F2A585A96002D73CF /* Background.swift */,
 				F03B4C612A585B0D002D73CF /* MainCard.swift */,
 				F03B4C632A585BBF002D73CF /* SearchCardView.swift */,
 			);
-			path = Extensions;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

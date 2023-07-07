@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SearchCardView: View {
+struct SearchView: View {
     @Environment(\.colorScheme) var colorScheme
     //@Binding var place: String
     var body: some View {
@@ -39,11 +39,11 @@ struct SearchCardView: View {
     }
 }
 
-struct SearchCardView_Previews: PreviewProvider {
+struct SearchView_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
             Color.purple.ignoresSafeArea()
-            SearchCardView()
+            SearchView()
         }
         MainView().previewDisplayName("Main")
     }
