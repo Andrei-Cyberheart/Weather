@@ -43,7 +43,7 @@ struct MainView_Previews: PreviewProvider {
         Group {
             MainView()
             MainView().previewDevice("iPhone 8")
-                .navigationTitle("iPhone 8")
+                .previewDisplayName("iPhone 8")
         }
     }
 }
