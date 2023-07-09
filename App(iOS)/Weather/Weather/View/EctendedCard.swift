@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AdvencedCard: View {
+struct ExtendedCard: View {
     @Environment(\.colorScheme) var colorScheme
     var body: some View {
         ZStack {
@@ -67,7 +67,7 @@ struct AdvencedCard_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
             Color.purple.ignoresSafeArea()
-            AdvencedCard()
+            ExtendedCard()
         }
         MainView()
     }

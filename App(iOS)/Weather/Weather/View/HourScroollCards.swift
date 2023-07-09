@@ -18,7 +18,7 @@ struct HourScroollCards: View {
                    TabView(selection: $currentPage) {
                        ForEach(0..<totalPages) { page in
                            GeometryReader { geometry in
-                              AdvencedCard()
+                              ExtendedCard()
                                    .frame(width: geometry.size.width, height: geometry.size.height)
                            }
                            .tag(page)
