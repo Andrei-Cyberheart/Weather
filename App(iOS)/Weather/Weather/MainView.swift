@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct MainView: View {
+    
+    @State private var currentPage = 0
+    
     var body: some View {
         NavigationView{
             ZStack {
@@ -19,18 +22,7 @@ struct MainView: View {
                     Spacer()
                     MainCard()
                     Spacer()
-                    ScrollView (.horizontal, showsIndicators: true) {
-                        
-                        HStack {
-                            ForEach(1..<40) {_ in
-                                NavigationLink {
-                                    AdvancedDetailView()
-                                } label: {
-                                    AdvencedCard().padding(.horizontal)
-                                }
-                            }
-                        }
-                    }
+                    HourScroollCards()
                     Spacer()
                 }
             }

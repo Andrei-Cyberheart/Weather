@@ -12,7 +12,7 @@ struct PagesIndicatorView: View {
         let totalPages = 3 // Update this value based on the number of pages
 
         var body: some View {
-            VStack {
+            HStack {
                 // Main content of your app goes here
             }
             .overlay(PageIndicator(currentPage: $currentPage, totalPages: totalPages)
