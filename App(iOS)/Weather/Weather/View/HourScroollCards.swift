@@ -38,11 +38,11 @@ struct HourScroollCards: View {
                            ForEach(rowIndex*indicatorsPerRow..<(rowIndex+1)*indicatorsPerRow) { page in
                                Circle()
                                    .frame(width: 8, height: 8)
-                                   .foregroundColor(page == currentPage ? .blue : .gray)
+                                   .foregroundColor(page == currentPage ? .black : .white)
                            }
                        }
                    }
-               }
+               }.shadow(color: .black, radius: 5)
            }
        }
 }
