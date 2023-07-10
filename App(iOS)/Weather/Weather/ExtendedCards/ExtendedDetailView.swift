@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AdvancedDetailView: View {
+struct ExtendedDetailView: View {
     @Environment(\.colorScheme) var colorScheme
     var body: some View {
         ZStack {
@@ -54,6 +54,6 @@ struct AdvancedDetailView: View {
 
 struct AdvancedDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        AdvancedDetailView()
+        ExtendedDetailView()
     }
 }
