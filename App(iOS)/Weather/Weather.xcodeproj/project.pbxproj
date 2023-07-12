@@ -19,7 +19,6 @@
 		F03B4C692A585EF0002D73CF /* ExtendedDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03B4C682A585EF0002D73CF /* ExtendedDetailView.swift */; };
 		F05AAEDB2A5BF85500AA394E /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05AAEDA2A5BF85500AA394E /* CurrentWeather.swift */; };
 		F05AAEE02A5BFD5200AA394E /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05AAEDF2A5BFD5200AA394E /* Coordinate.swift */; };
-		F05AAEE22A5BFDA400AA394E /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05AAEE12A5BFDA400AA394E /* Location.swift */; };
 		F0D2C42D2A5967A50014680F /* HourScroollCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D2C42C2A5967A50014680F /* HourScroollCards.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +36,6 @@
 		F03B4C682A585EF0002D73CF /* ExtendedDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendedDetailView.swift; sourceTree = "<group>"; };
 		F05AAEDA2A5BF85500AA394E /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		F05AAEDF2A5BFD5200AA394E /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
-		F05AAEE12A5BFDA400AA394E /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		F0D2C42C2A5967A50014680F /* HourScroollCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourScroollCards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,7 +143,6 @@
 			children = (
 				F05AAEDA2A5BF85500AA394E /* CurrentWeather.swift */,
 				F05AAEDF2A5BFD5200AA394E /* Coordinate.swift */,
-				F05AAEE12A5BFDA400AA394E /* Location.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -241,7 +238,6 @@
 				F05AAEDB2A5BF85500AA394E /* CurrentWeather.swift in Sources */,
 				F03B4C622A585B0D002D73CF /* MainCard.swift in Sources */,
 				F0D2C42D2A5967A50014680F /* HourScroollCards.swift in Sources */,
-				F05AAEE22A5BFDA400AA394E /* Location.swift in Sources */,
 				F03B4C692A585EF0002D73CF /* ExtendedDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
