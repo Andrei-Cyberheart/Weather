@@ -19,6 +19,7 @@
 		F03B4C692A585EF0002D73CF /* ExtendedDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03B4C682A585EF0002D73CF /* ExtendedDetailView.swift */; };
 		F05AAEDB2A5BF85500AA394E /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05AAEDA2A5BF85500AA394E /* CurrentWeather.swift */; };
 		F05AAEE02A5BFD5200AA394E /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05AAEDF2A5BFD5200AA394E /* Coordinate.swift */; };
+		F0755EC22A5E7E2B00E42B94 /* Rain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0755EC12A5E7E2B00E42B94 /* Rain.swift */; };
 		F0D2C42D2A5967A50014680F /* HourScroollCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D2C42C2A5967A50014680F /* HourScroollCards.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 		F03B4C682A585EF0002D73CF /* ExtendedDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendedDetailView.swift; sourceTree = "<group>"; };
 		F05AAEDA2A5BF85500AA394E /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		F05AAEDF2A5BFD5200AA394E /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		F0755EC12A5E7E2B00E42B94 /* Rain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rain.swift; sourceTree = "<group>"; };
 		F0D2C42C2A5967A50014680F /* HourScroollCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourScroollCards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,6 +145,7 @@
 			children = (
 				F05AAEDA2A5BF85500AA394E /* CurrentWeather.swift */,
 				F05AAEDF2A5BFD5200AA394E /* Coordinate.swift */,
+				F0755EC12A5E7E2B00E42B94 /* Rain.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				F03B4C672A585D7C002D73CF /* ExtendedCard.swift in Sources */,
 				F03B4C512A585911002D73CF /* MainView.swift in Sources */,
 				F03B4C5E2A5859DD002D73CF /* View+Extensions.swift in Sources */,
+				F0755EC22A5E7E2B00E42B94 /* Rain.swift in Sources */,
 				F03B4C642A585BBF002D73CF /* SearchView.swift in Sources */,
 				F03B4C4F2A585911002D73CF /* WeatherApp.swift in Sources */,
 				F05AAEE02A5BFD5200AA394E /* Coordinate.swift in Sources */,
