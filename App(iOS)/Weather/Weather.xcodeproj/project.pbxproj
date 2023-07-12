@@ -19,6 +19,7 @@
 		F03B4C692A585EF0002D73CF /* ExtendedDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03B4C682A585EF0002D73CF /* ExtendedDetailView.swift */; };
 		F05AAEDB2A5BF85500AA394E /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05AAEDA2A5BF85500AA394E /* CurrentWeather.swift */; };
 		F05AAEE02A5BFD5200AA394E /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05AAEDF2A5BFD5200AA394E /* Coordinate.swift */; };
+		F05AAEE22A5BFDA400AA394E /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05AAEE12A5BFDA400AA394E /* Location.swift */; };
 		F0D2C42D2A5967A50014680F /* HourScroollCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D2C42C2A5967A50014680F /* HourScroollCards.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 		F03B4C682A585EF0002D73CF /* ExtendedDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendedDetailView.swift; sourceTree = "<group>"; };
 		F05AAEDA2A5BF85500AA394E /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		F05AAEDF2A5BFD5200AA394E /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		F05AAEE12A5BFDA400AA394E /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		F0D2C42C2A5967A50014680F /* HourScroollCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourScroollCards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,15 +72,11 @@
 			isa = PBXGroup;
 			children = (
 				F05AAED62A5BF72C00AA394E /* SupportingFiles */,
-				F05AAED52A5BF62600AA394E /* ExtendedCards */,
-				F05AAED42A5BF61900AA394E /* MainCard */,
-				F05AAED22A5BF60300AA394E /* Search */,
-				F05AAED12A5BF5F700AA394E /* MainScreen */,
-				F03B4C652A585CC6002D73CF /* View */,
 				F03B4C5C2A5859C8002D73CF /* Extensions */,
+				F0755EC02A5E7AF000E42B94 /* Elements */,
+				F05AAED72A5BF7E600AA394E /* Models */,
 				F03B4C4E2A585911002D73CF /* WeatherApp.swift */,
 				F03B4C502A585911002D73CF /* MainView.swift */,
-				F05AAED72A5BF7E600AA394E /* Models */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -97,14 +95,6 @@
 				F03B4C5D2A5859DD002D73CF /* View+Extensions.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		F03B4C652A585CC6002D73CF /* View */ = {
-			isa = PBXGroup;
-			children = (
-				F0D2C42C2A5967A50014680F /* HourScroollCards.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		F05AAED12A5BF5F700AA394E /* MainScreen */ = {
@@ -136,6 +126,7 @@
 			children = (
 				F03B4C682A585EF0002D73CF /* ExtendedDetailView.swift */,
 				F03B4C662A585D7C002D73CF /* ExtendedCard.swift */,
+				F0D2C42C2A5967A50014680F /* HourScroollCards.swift */,
 			);
 			path = ExtendedCards;
 			sourceTree = "<group>";
@@ -152,26 +143,22 @@
 		F05AAED72A5BF7E600AA394E /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F05AAED92A5BF81C00AA394E /* HourlyWeather */,
-				F05AAED82A5BF81100AA394E /* CurrentWeather */,
+				F05AAEDA2A5BF85500AA394E /* CurrentWeather.swift */,
 				F05AAEDF2A5BFD5200AA394E /* Coordinate.swift */,
+				F05AAEE12A5BFDA400AA394E /* Location.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		F05AAED82A5BF81100AA394E /* CurrentWeather */ = {
+		F0755EC02A5E7AF000E42B94 /* Elements */ = {
 			isa = PBXGroup;
 			children = (
-				F05AAEDA2A5BF85500AA394E /* CurrentWeather.swift */,
+				F05AAED12A5BF5F700AA394E /* MainScreen */,
+				F05AAED22A5BF60300AA394E /* Search */,
+				F05AAED42A5BF61900AA394E /* MainCard */,
+				F05AAED52A5BF62600AA394E /* ExtendedCards */,
 			);
-			path = CurrentWeather;
-			sourceTree = "<group>";
-		};
-		F05AAED92A5BF81C00AA394E /* HourlyWeather */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = HourlyWeather;
+			path = Elements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +241,7 @@
 				F05AAEDB2A5BF85500AA394E /* CurrentWeather.swift in Sources */,
 				F03B4C622A585B0D002D73CF /* MainCard.swift in Sources */,
 				F0D2C42D2A5967A50014680F /* HourScroollCards.swift in Sources */,
+				F05AAEE22A5BFDA400AA394E /* Location.swift in Sources */,
 				F03B4C692A585EF0002D73CF /* ExtendedDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
