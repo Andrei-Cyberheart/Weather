@@ -24,6 +24,7 @@
 		F0755EC62A5FD0D300E42B94 /* Clouds.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0755EC52A5FD0D300E42B94 /* Clouds.swift */; };
 		F0755EC82A5FD15200E42B94 /* Sys.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0755EC72A5FD15200E42B94 /* Sys.swift */; };
 		F0755ECA2A5FD1FB00E42B94 /* Wind.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0755EC92A5FD1FB00E42B94 /* Wind.swift */; };
+		F0755ECC2A5FD2CF00E42B94 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0755ECB2A5FD2CF00E42B94 /* Weather.swift */; };
 		F0D2C42D2A5967A50014680F /* HourScroollCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D2C42C2A5967A50014680F /* HourScroollCards.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		F0755EC52A5FD0D300E42B94 /* Clouds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clouds.swift; sourceTree = "<group>"; };
 		F0755EC72A5FD15200E42B94 /* Sys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sys.swift; sourceTree = "<group>"; };
 		F0755EC92A5FD1FB00E42B94 /* Wind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wind.swift; sourceTree = "<group>"; };
+		F0755ECB2A5FD2CF00E42B94 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		F0D2C42C2A5967A50014680F /* HourScroollCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourScroollCards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -158,6 +160,7 @@
 				F0755EC52A5FD0D300E42B94 /* Clouds.swift */,
 				F0755EC72A5FD15200E42B94 /* Sys.swift */,
 				F0755EC92A5FD1FB00E42B94 /* Wind.swift */,
+				F0755ECB2A5FD2CF00E42B94 /* Weather.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F03B4C672A585D7C002D73CF /* ExtendedCard.swift in Sources */,
+				F0755ECC2A5FD2CF00E42B94 /* Weather.swift in Sources */,
 				F03B4C512A585911002D73CF /* MainView.swift in Sources */,
 				F03B4C5E2A5859DD002D73CF /* View+Extensions.swift in Sources */,
 				F0755EC22A5E7E2B00E42B94 /* Rain.swift in Sources */,
