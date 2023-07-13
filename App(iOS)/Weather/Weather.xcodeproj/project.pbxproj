@@ -21,6 +21,7 @@
 		F05AAEE02A5BFD5200AA394E /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05AAEDF2A5BFD5200AA394E /* Coordinate.swift */; };
 		F0755EC22A5E7E2B00E42B94 /* Rain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0755EC12A5E7E2B00E42B94 /* Rain.swift */; };
 		F0755EC42A5E7ED000E42B94 /* Snow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0755EC32A5E7ED000E42B94 /* Snow.swift */; };
+		F0755EC62A5FD0D300E42B94 /* Clouds.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0755EC52A5FD0D300E42B94 /* Clouds.swift */; };
 		F0D2C42D2A5967A50014680F /* HourScroollCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D2C42C2A5967A50014680F /* HourScroollCards.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		F05AAEDF2A5BFD5200AA394E /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
 		F0755EC12A5E7E2B00E42B94 /* Rain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rain.swift; sourceTree = "<group>"; };
 		F0755EC32A5E7ED000E42B94 /* Snow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snow.swift; sourceTree = "<group>"; };
+		F0755EC52A5FD0D300E42B94 /* Clouds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clouds.swift; sourceTree = "<group>"; };
 		F0D2C42C2A5967A50014680F /* HourScroollCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourScroollCards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,6 +151,7 @@
 				F05AAEDF2A5BFD5200AA394E /* Coordinate.swift */,
 				F0755EC12A5E7E2B00E42B94 /* Rain.swift */,
 				F0755EC32A5E7ED000E42B94 /* Snow.swift */,
+				F0755EC52A5FD0D300E42B94 /* Clouds.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				F05AAEDB2A5BF85500AA394E /* CurrentWeather.swift in Sources */,
 				F03B4C622A585B0D002D73CF /* MainCard.swift in Sources */,
 				F0755EC42A5E7ED000E42B94 /* Snow.swift in Sources */,
+				F0755EC62A5FD0D300E42B94 /* Clouds.swift in Sources */,
 				F0D2C42D2A5967A50014680F /* HourScroollCards.swift in Sources */,
 				F03B4C692A585EF0002D73CF /* ExtendedDetailView.swift in Sources */,
 			);
