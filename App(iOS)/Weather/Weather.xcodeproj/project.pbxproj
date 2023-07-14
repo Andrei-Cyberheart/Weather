@@ -26,6 +26,7 @@
 		F0755ECA2A5FD1FB00E42B94 /* Wind.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0755EC92A5FD1FB00E42B94 /* Wind.swift */; };
 		F0755ECC2A5FD2CF00E42B94 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0755ECB2A5FD2CF00E42B94 /* Weather.swift */; };
 		F0755ECE2A5FD34D00E42B94 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0755ECD2A5FD34D00E42B94 /* Main.swift */; };
+		F0755ED02A6126F700E42B94 /* HourlyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0755ECF2A6126F700E42B94 /* HourlyWeather.swift */; };
 		F0D2C42D2A5967A50014680F /* HourScroollCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D2C42C2A5967A50014680F /* HourScroollCards.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		F0755EC92A5FD1FB00E42B94 /* Wind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wind.swift; sourceTree = "<group>"; };
 		F0755ECB2A5FD2CF00E42B94 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		F0755ECD2A5FD34D00E42B94 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		F0755ECF2A6126F700E42B94 /* HourlyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyWeather.swift; sourceTree = "<group>"; };
 		F0D2C42C2A5967A50014680F /* HourScroollCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourScroollCards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				F05AAEDA2A5BF85500AA394E /* CurrentWeather.swift */,
+				F0755ECF2A6126F700E42B94 /* HourlyWeather.swift */,
 				F05AAEDF2A5BFD5200AA394E /* Coordinate.swift */,
 				F0755EC12A5E7E2B00E42B94 /* Rain.swift */,
 				F0755EC32A5E7ED000E42B94 /* Snow.swift */,
@@ -266,6 +269,7 @@
 				F0755EC42A5E7ED000E42B94 /* Snow.swift in Sources */,
 				F0755EC62A5FD0D300E42B94 /* Clouds.swift in Sources */,
 				F0D2C42D2A5967A50014680F /* HourScroollCards.swift in Sources */,
+				F0755ED02A6126F700E42B94 /* HourlyWeather.swift in Sources */,
 				F03B4C692A585EF0002D73CF /* ExtendedDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
