@@ -16,6 +16,7 @@ struct List: Codable {
     let visibility: Int
     let pop: Double
     let rain: Rain?
+    let snow: Snow?
     let sys: Sys
     let dateText: String
 
@@ -28,6 +29,7 @@ struct List: Codable {
         case visibility
         case pop
         case rain
+        case snow
         case sys
         case dateText = "dt_txt"
     }
