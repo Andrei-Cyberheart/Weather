@@ -8,37 +8,39 @@
 import Foundation
 
 struct CurrentWeather: Codable {
-
-//    let sys: Sys?
-//    let coord: Coord?
-      let name: String?
     
-//    let weather: [Weather]?
-//    let base: String?
-//    let main: Main?
-//    let visibility: Int?
-//    let wind: Wind?
-//    let rain: Rain?
-//    let clouds: Clouds?
-//    let dt: Int?
-
-    let timezone: Int?
-    
-    let cod: Int?
+    let id: Int
+    let coordinate: Coordinate
+    let weather: [Weather]
+    let base: String
+    let main: Main
+    let visibility: Int
+    let wind: Wind
+    let rain: Rain?
+    let snow: Snow?
+    let clouds: Clouds
+    let date: Int
+    let sys: Sys
+    let timezone: Int
+    let name: String
+    let cod: Int
     
     private enum CodingKeys: String, CodingKey {
-//        case coordinate = "coord"
-//        case weather = "weather"
-//        case base = "base"
-//        case main = "main"
-//        case visibility = "visibility"
-//        case wind = "wind"
-//        case rain = "rain"
-//        case clouds = "clouds"
-//        case date = "dt"
-//        case sys = "sys"
-        case timezone = "timezone"
-        case name = "name"
-        case cod = "cod"
-        }
+        case id
+        case coordinate = "coord"
+        case weather
+        case base
+        case main
+        case visibility
+        case wind
+        case rain
+        case snow
+        case clouds
+        case date = "dt"
+        case sys
+        case timezone
+        case name
+        case cod
+        
+    }
 }
