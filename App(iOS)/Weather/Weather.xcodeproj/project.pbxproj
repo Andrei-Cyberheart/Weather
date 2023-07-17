@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F00026192A6574B300754A86 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00026182A6574B300754A86 /* APIError.swift */; };
+		F000261B2A65751D00754A86 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F000261A2A65751D00754A86 /* APIService.swift */; };
 		F03B4C4F2A585911002D73CF /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03B4C4E2A585911002D73CF /* WeatherApp.swift */; };
 		F03B4C512A585911002D73CF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03B4C502A585911002D73CF /* MainView.swift */; };
 		F03B4C532A585912002D73CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F03B4C522A585912002D73CF /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		F00026182A6574B300754A86 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		F000261A2A65751D00754A86 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		F03B4C4B2A585911002D73CF /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03B4C4E2A585911002D73CF /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
 		F03B4C502A585911002D73CF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				F00026182A6574B300754A86 /* APIError.swift */,
+				F000261A2A65751D00754A86 /* APIService.swift */,
 			);
 			path = NetworkService;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				F03B4C622A585B0D002D73CF /* MainCard.swift in Sources */,
 				F0755EC42A5E7ED000E42B94 /* Snow.swift in Sources */,
 				F0755EC62A5FD0D300E42B94 /* Clouds.swift in Sources */,
+				F000261B2A65751D00754A86 /* APIService.swift in Sources */,
 				F0D2C42D2A5967A50014680F /* HourScroollCards.swift in Sources */,
 				F0755ED02A6126F700E42B94 /* HourlyWeather.swift in Sources */,
 				F03B4C692A585EF0002D73CF /* ExtendedDetailView.swift in Sources */,
