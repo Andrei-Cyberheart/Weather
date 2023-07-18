@@ -22,7 +22,7 @@ struct MainView: View {
                     Spacer()
                     MainCard()
                     Spacer()
-                    HourScroollCards()
+                    HourlyCardsScrooll()
                     Spacer()
                 }
             }

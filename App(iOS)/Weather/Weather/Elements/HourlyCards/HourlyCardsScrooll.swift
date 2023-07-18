@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HourScroollCards: View {
+struct HourlyCardsScrooll: View {
     @State private var currentPage = 0
        private let totalPages = 40 // Total number of pages in the ScrollView
        private let indicatorsPerRow = 20 // Number of indicators per row
@@ -18,7 +18,7 @@ struct HourScroollCards: View {
                    TabView(selection: $currentPage) {
                        ForEach(0..<totalPages) { page in
                            GeometryReader { geometry in
-                              ExtendedCard()
+                              HourlyCard()
                                    .frame(width: geometry.size.width, height: geometry.size.height)
                            }
                            .tag(page)
@@ -50,6 +50,6 @@ struct HourScroollCards: View {
 
 struct HourScroollCards_Previews: PreviewProvider {
     static var previews: some View {
-        HourScroollCards()
+        HourlyCardsScrooll()
     }
 }

@@ -17,8 +17,8 @@
 		F03B4C602A585A96002D73CF /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03B4C5F2A585A96002D73CF /* BackgroundView.swift */; };
 		F03B4C622A585B0D002D73CF /* MainCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03B4C612A585B0D002D73CF /* MainCard.swift */; };
 		F03B4C642A585BBF002D73CF /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03B4C632A585BBF002D73CF /* SearchView.swift */; };
-		F03B4C672A585D7C002D73CF /* ExtendedCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03B4C662A585D7C002D73CF /* ExtendedCard.swift */; };
-		F03B4C692A585EF0002D73CF /* ExtendedDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03B4C682A585EF0002D73CF /* ExtendedDetailView.swift */; };
+		F03B4C672A585D7C002D73CF /* HourlyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03B4C662A585D7C002D73CF /* HourlyCard.swift */; };
+		F03B4C692A585EF0002D73CF /* HourlyCardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03B4C682A585EF0002D73CF /* HourlyCardDetailView.swift */; };
 		F04BABB92A66616000D0AA58 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04BABB82A66616000D0AA58 /* LocationManager.swift */; };
 		F05AAEDB2A5BF85500AA394E /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05AAEDA2A5BF85500AA394E /* CurrentWeather.swift */; };
 		F05AAEE02A5BFD5200AA394E /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05AAEDF2A5BFD5200AA394E /* Coordinate.swift */; };
@@ -32,7 +32,7 @@
 		F0755ED02A6126F700E42B94 /* HourlyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0755ECF2A6126F700E42B94 /* HourlyWeather.swift */; };
 		F0755ED22A6127F100E42B94 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0755ED12A6127F100E42B94 /* City.swift */; };
 		F0755ED42A6128BB00E42B94 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0755ED32A6128BB00E42B94 /* List.swift */; };
-		F0D2C42D2A5967A50014680F /* HourScroollCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D2C42C2A5967A50014680F /* HourScroollCards.swift */; };
+		F0D2C42D2A5967A50014680F /* HourlyCardsScrooll.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D2C42C2A5967A50014680F /* HourlyCardsScrooll.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,8 +47,8 @@
 		F03B4C5F2A585A96002D73CF /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		F03B4C612A585B0D002D73CF /* MainCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCard.swift; sourceTree = "<group>"; };
 		F03B4C632A585BBF002D73CF /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
-		F03B4C662A585D7C002D73CF /* ExtendedCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendedCard.swift; sourceTree = "<group>"; };
-		F03B4C682A585EF0002D73CF /* ExtendedDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendedDetailView.swift; sourceTree = "<group>"; };
+		F03B4C662A585D7C002D73CF /* HourlyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyCard.swift; sourceTree = "<group>"; };
+		F03B4C682A585EF0002D73CF /* HourlyCardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyCardDetailView.swift; sourceTree = "<group>"; };
 		F04BABB82A66616000D0AA58 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		F05AAEDA2A5BF85500AA394E /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		F05AAEDF2A5BFD5200AA394E /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		F0755ECF2A6126F700E42B94 /* HourlyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyWeather.swift; sourceTree = "<group>"; };
 		F0755ED12A6127F100E42B94 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		F0755ED32A6128BB00E42B94 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
-		F0D2C42C2A5967A50014680F /* HourScroollCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourScroollCards.swift; sourceTree = "<group>"; };
+		F0D2C42C2A5967A50014680F /* HourlyCardsScrooll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyCardsScrooll.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,14 +146,14 @@
 			path = MainCard;
 			sourceTree = "<group>";
 		};
-		F05AAED52A5BF62600AA394E /* ExtendedCards */ = {
+		F05AAED52A5BF62600AA394E /* HourlyCards */ = {
 			isa = PBXGroup;
 			children = (
-				F03B4C682A585EF0002D73CF /* ExtendedDetailView.swift */,
-				F03B4C662A585D7C002D73CF /* ExtendedCard.swift */,
-				F0D2C42C2A5967A50014680F /* HourScroollCards.swift */,
+				F03B4C682A585EF0002D73CF /* HourlyCardDetailView.swift */,
+				F03B4C662A585D7C002D73CF /* HourlyCard.swift */,
+				F0D2C42C2A5967A50014680F /* HourlyCardsScrooll.swift */,
 			);
-			path = ExtendedCards;
+			path = HourlyCards;
 			sourceTree = "<group>";
 		};
 		F05AAED62A5BF72C00AA394E /* SupportingFiles */ = {
@@ -190,7 +190,7 @@
 				F05AAED12A5BF5F700AA394E /* MainScreen */,
 				F05AAED22A5BF60300AA394E /* Search */,
 				F05AAED42A5BF61900AA394E /* MainCard */,
-				F05AAED52A5BF62600AA394E /* ExtendedCards */,
+				F05AAED52A5BF62600AA394E /* HourlyCards */,
 			);
 			path = Elements;
 			sourceTree = "<group>";
@@ -292,7 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0755ECE2A5FD34D00E42B94 /* Main.swift in Sources */,
-				F03B4C672A585D7C002D73CF /* ExtendedCard.swift in Sources */,
+				F03B4C672A585D7C002D73CF /* HourlyCard.swift in Sources */,
 				F0755ED42A6128BB00E42B94 /* List.swift in Sources */,
 				F0755ECC2A5FD2CF00E42B94 /* Weather.swift in Sources */,
 				F03B4C512A585911002D73CF /* MainView.swift in Sources */,
@@ -311,9 +311,9 @@
 				F0755EC42A5E7ED000E42B94 /* Snow.swift in Sources */,
 				F0755EC62A5FD0D300E42B94 /* Clouds.swift in Sources */,
 				F000261B2A65751D00754A86 /* APIService.swift in Sources */,
-				F0D2C42D2A5967A50014680F /* HourScroollCards.swift in Sources */,
+				F0D2C42D2A5967A50014680F /* HourlyCardsScrooll.swift in Sources */,
 				F0755ED02A6126F700E42B94 /* HourlyWeather.swift in Sources */,
-				F03B4C692A585EF0002D73CF /* ExtendedDetailView.swift in Sources */,
+				F03B4C692A585EF0002D73CF /* HourlyCardDetailView.swift in Sources */,
 				F00026192A6574B300754A86 /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
