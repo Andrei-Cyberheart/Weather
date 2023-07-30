@@ -9,8 +9,8 @@ import SwiftUI
 
 struct HourlyCardsScrooll: View {
     @State private var currentPage = 0
-       private let totalPages = 40 // Total number of pages in the ScrollView
-       private let indicatorsPerRow = 20 // Number of indicators per row
+       private let totalPages = 5 // Total number of pages in the ScrollView
+       private let indicatorsPerRow = 5 // Number of indicators per row
        
        var body: some View {
            VStack {
@@ -36,9 +36,14 @@ struct HourlyCardsScrooll: View {
                    ForEach(0..<totalPages/indicatorsPerRow, id: \.self) { rowIndex in
                        HStack(spacing: 5) {
                            ForEach(rowIndex*indicatorsPerRow..<(rowIndex+1)*indicatorsPerRow) { page in
-                               Circle()
-                                   .frame(width: 8, height: 8)
-                                   .foregroundColor(page == currentPage ? .black : .white)
+                               Button(action: { currentPage = page }) {
+                                   ZStack {
+                                       RoundedRectangle(cornerRadius: 5)
+                                           .frame(width: 40, height: 40)
+                                           .foregroundColor(page == currentPage ? .black : .white)
+                                       Image(systemName: "m.circle")
+                                   }.foregroundColor(page == currentPage ? Color.white : Color.black)
+                               }
                            }
                        }
                    }
