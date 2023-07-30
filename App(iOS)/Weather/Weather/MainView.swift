@@ -16,14 +16,10 @@ struct MainView: View {
             ZStack {
                 BackgroundView()
                 
-                VStack {
-                    Spacer()
+                VStack(spacing: 20) {
                     SearchView()
-                    Spacer()
                     MainCard()
-                    Spacer()
                     HourlyCardsScrooll()
-                    Spacer()
                 }
             }
         }
