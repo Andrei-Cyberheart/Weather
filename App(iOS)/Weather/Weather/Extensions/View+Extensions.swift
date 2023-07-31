@@ -19,7 +19,7 @@ struct BlurBackground: ViewModifier {
     func body(content: Content) -> some View {
         content
             .background(
-                VisualEffectView(effect: UIBlurEffect(style: style == .dark ? .dark : .light))
+                VisualEffectView(effect: UIBlurEffect(style: style == .dark ? .light : .light))
             )
     }
 }
