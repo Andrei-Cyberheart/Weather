@@ -32,12 +32,10 @@ module.exports = {
 
   // Область. Она характеризует фрагмент кода, которую затронули изменения
   scopes: [
-    { name: "App" },
     { name: "App.iOS" },
     { name: "App.Widget" },
-    { name: "Service" },
     { name: "Service.API"},
-    { name: "Service.DataStorage" }
+    { name: "Service.DataBase" }
   ],
 
   // Возможность задать спец ОБЛАСТЬ для определенного типа коммита (пример для 'fix')
