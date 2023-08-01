@@ -35,7 +35,8 @@ module.exports = {
     { name: "App.iOS" },
     { name: "App.Widget" },
     { name: "Service.API"},
-    { name: "Service.DataBase" }
+    { name: "Service.DataBase" },
+    { name: "Service.ExthernalAPIClient" }
   ],
 
   // Возможность задать спец ОБЛАСТЬ для определенного типа коммита (пример для 'fix')
