@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "WeatherService.DataBase": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true
+    }
+  }
+}
