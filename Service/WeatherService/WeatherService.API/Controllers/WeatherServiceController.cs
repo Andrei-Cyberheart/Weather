@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using WeatherService.DataBase.Repositories;
+using WeatherService.ExternalAPIClient.Clients;
 
 namespace WeatherService.API.Controllers;
 
@@ -7,9 +9,9 @@ namespace WeatherService.API.Controllers;
 public class WeatherServiceController : ControllerBase
 {
     private readonly IWeatherServiceRepository _repository;
-    private readonly IOpenWeatherMapApiClient _apiClient;
+    private readonly IWeatherApiClient _apiClient;
 
-    public WeatherServiceController(IWeatherServiceRepository repository, IOpenWeatherMapApiClient apiClient)
+    public WeatherServiceController(IWeatherServiceRepository repository, IWeatherApiClient apiClient)
     {
         _repository = repository;
         _apiClient = apiClient;
@@ -19,7 +21,7 @@ public class WeatherServiceController : ControllerBase
     public async Task<ActionResult<WeatherServiceDto>> GetWeatherForecast(double latitude, double longitude)
     {
         // Check if data exists in the database
-        var weatherData = await _repository.GetWeatherForecastByCoordinates(latitude, longitude);
+        var weatherData = await _repository.GetWeatherServiceByCoordinates(latitude, longitude);
         if (weatherData != null)
         {
             return Ok(weatherData.ToDto());
