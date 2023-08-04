@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace WeatherService.DataBase.Repositories
 {
 	public interface IWeatherServiceRepository

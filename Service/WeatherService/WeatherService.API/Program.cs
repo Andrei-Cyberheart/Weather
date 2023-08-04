@@ -1,4 +1,14 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using Microsoft.EntityFrameworkCore;
+using WeatherService.DataBase;
+
+var builder = WebApplication.CreateBuilder(args);
+
+//Add Db Context
+builder.Services.AddDbContext<WeatherDbContext>(options =>
+{
+    var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+});
 
 // Add services to the container.
 
